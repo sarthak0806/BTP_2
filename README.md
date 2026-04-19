@@ -1,4 +1,6 @@
 # Attribute Prediction for E-commerce Products using CLIP
+https://docs.google.com/document/d/17qbhYI4-6hopTvNnghWJZjipSynI8vk8um5b439OEAU/edit?usp=sharing
+https://docs.google.com/document/d/1gCcZDRGSRO2P9javYQTkJtPbUZ5hQ_XKlYW4tksPI4g/edit?usp=sharing
 
 This project focuses on predicting structured product attributes (such as color, pattern, sleeve length, etc.) from product images using deep learning.
 
