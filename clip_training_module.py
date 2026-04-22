@@ -252,7 +252,7 @@ def main():
         val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
 
         model_head = CategoryMLP(clip_dim, attr_dims).to(DEVICE)
-        optimizer = torch.optim.AdamW(model_head.parameters(), lr=LR)
+        optimizer = torch.optim.AdamW(model_head.parameters(), lr=LR, weight_decay=0.01)
         criterion = nn.CrossEntropyLoss(reduction="none")
 
         for epoch in range(epochs_local):
